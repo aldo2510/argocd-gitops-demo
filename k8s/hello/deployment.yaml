@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: gcr.io/google-samples/hello-app:1.0  # <--- cambia a 2.0 para probar
+          image: gcr.io/google-samples/hello-app:2.0  # <--- cambia a 2.0 para probar
           ports:
             - containerPort: 8080
           env:
